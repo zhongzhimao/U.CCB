@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         建行学习刷课脚本1.2版本
 // @namespace    http://tampermonkey.net/
-// @version      2025-08-08
+// @version      2025-09-19
 // @description  一键静音，一键加速，一键评论
 // @author       听说你很会玩
 // @match        https://u.ccb.com/*/
@@ -714,3 +714,4 @@
     // 开始观察页面变化
     observer.observe(document.body, { childList: true, subtree: true });
 })();
+
